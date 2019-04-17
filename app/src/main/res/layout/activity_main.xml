@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000"
+    android:padding="@dimen/margin"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="@dimen/margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        android:text="Stack Overflow"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="@dimen/margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Login to fully enjoy Stackoverflow's Features"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="#F78F3E"
+        android:onClick="loginToUserInterestActivity"
+        android:padding="10dp"
+        android:text="Login to Stack Overflow"
+        android:textColor="@color/textColor" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/tag_shape_orange">
+
+    <TextView
+        android:id="@+id/tag_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textColor="@color/textColor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+
+    <ImageButton
+        android:id="@+id/delete_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_close_black_24dp" />
+</LinearLayout>
